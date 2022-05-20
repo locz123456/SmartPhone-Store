@@ -1,0 +1,32 @@
+export interface DetailProduct {
+	name: string;
+	avatar: string;
+	cost: string;
+	capacity: any;
+	description: string;
+	color: string;
+	promotion: any;
+	oldCost: string;
+	endow: string;
+	kichThuoc: string;
+	doPhangiai: string;
+	congNghemanhinh: string;
+	chatLieu: string;
+	thoiLuongpin: any;
+	thoiGiansac: any;
+	loaiCpu: string;
+	tinhNangnoibat: string;
+	cameraSau: string;
+	cameraTruoc: string;
+	RAM: string;
+	ROM: string;
+	SIM: string;
+	heDieuHanh: string;
+	img1: string;
+	img2: string;
+	img3: string;
+	img4: string;
+	img5: string;
+	id: string;
+	LoaiId: string;
+  }

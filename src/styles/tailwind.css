@@ -1,0 +1,35 @@
+@tailwind base;
+
+/* Your own custom base styles */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Your own custom component styles */
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
+@layer components{
+    .price-memory{
+        @apply border-[1px] border-stone-300 rounded-lg text-center text-[12px] py-2 text-gray-800 cursor-pointer
+    } 
+    .price-color{
+        @apply border-[1px] border-stone-200 rounded-lg text-[12px] py-2 text-gray-800 cursor-pointer focus:border-red-600 focus:border-[1px]
+    }
+    .table-header{
+        @apply w-1/6 min-w-[160px] text-lg font-semibold text-white py-4 lg:py-7 px-3 lg:px-4
+    }
+    .table-body{
+        @apply text-center font-medium text-base py-5 px-2 border-b border-l border-[#dbdbdb]
+    }
+    .nav-active{
+        @apply border-[1px] border-red-500 rounded-xl bg-[#fee] text-red-500
+    }
+    .nav-non-active{
+        @apply text-[#686868]
+    }
+}

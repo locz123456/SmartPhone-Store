@@ -1,0 +1,18 @@
+/** @format */
+
+body {
+	width: 1349px;
+}
+.App {
+	width: 1200px;
+}
+.endow{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 2;
+	margin-bottom: auto;
+	height: 100%;
+	color: rgb(18, 2, 241);
+  }
