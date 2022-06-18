@@ -32,8 +32,8 @@ import DanhMucSPByName from "./Components/DanhMucSP/DanhMucSPByName";
 
 // Configure Firebase.
 const config = {
-  apiKey: "AIzaSyAHi4Jo0pqiI5hzX_F-hXbO2pecfQKA8Uk",
-  authDomain: "mock-project-936ca.firebaseapp.com",
+  apiKey: "AIzaSyAzy0oea5Kv1zCs3arWv8NK4LpoArUqolk",
+  authDomain: "mockproject-7394c.firebaseapp.com",
 };
 firebase.initializeApp(config);
 
